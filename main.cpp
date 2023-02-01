@@ -17,5 +17,15 @@ int main() {
     cout << a.Equals(b) << endl;
     cout << b.Equals(c) << endl;
 
+    // Point p; doesn't compile, no default constructor
+    Point p(0,0);
+    Point q(1,1);
+    cout << p.ToString() << endl;
+    cout << q.ToString() << endl;
+    cout << p.Distance(q) << endl;
+    cout << q.Distance(p) << endl;
+    cout << p.Distance(p) << endl;
+
+
     return 0;
 }
