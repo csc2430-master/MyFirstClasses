@@ -5,9 +5,14 @@ using std::cout;
 using std::endl;
 
 int main() {
-    Point p;
-    p.SetX(1);
-    p.SetY(3);
+    Point p, q;
+    p.SetX(0);
+    p.SetY(0);
+    q.SetX(1);
+    q.SetY(1);
     cout << p.ToString() << endl;
+    cout << q.ToString() << endl;
+    cout << p.Distance(q) << endl;
+    cout << q.Distance(p) << endl;
     return 0;
 }
