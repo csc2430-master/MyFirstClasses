@@ -3,4 +3,4 @@ project(MyFirstClasses)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(MyFirstClasses main.cpp point.cpp point.h)
+add_executable(MyFirstClasses main.cpp point.cpp point.h person.cpp person.h)

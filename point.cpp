@@ -33,9 +33,9 @@ double Point::Distance(const Point& p) const {
             pow(_y - p._y, 2.0)
             );
 }
-Point::Point(){
-    _x = _y = 0.0;
-}
+//Point::Point(){
+//    _x = _y = 0.0;
+//}
 
 Point::Point(double x, double y) {
     _x = x;
